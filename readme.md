@@ -13,7 +13,7 @@ The **MA-SST-DDPG framework** integrates:
 - **Transformer Module:** Dynamically prioritizes safety-critical features within interaction histories.  
 
 <p align="center">
-  <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/792ab2973d99daded87bddee3babacd4228bde36/Config/Picture2.png" alt="Framework Overview" width="600">
+  <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/F1.png" alt="Framework Overview" width="600">
 </p>
 
 This hybrid design enables accurate reconstruction of evasive maneuvers and realistic simulation of human-like crash avoidance behaviors.
@@ -65,29 +65,12 @@ Dataset access: [High-Density Intersection Dataset](https://github.com/Qpu523/HD
 - ADE: **0.078 m**, FDE: **0.156 m**  
 
 <p align="center">
-  <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/cf4c0a9b9a7cfa45763bd13782795c8966fc4db8/Config/Picture3.png" alt="Trajectory Reconstruction" width="600">
+  <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/F2.png" alt="Trajectory Reconstruction" width="600">
 </p>
 
 ### Model Comparison
 
-| Category                     | Model                  | RMSE v_veh^y (m/s) | RMSE v_veh^x (m/s) | RMSE v_ped^y (m/s) | RMSE v_ped^x (m/s) | RMSE d_vp^y (m) | RMSE d_vp^x (m) | RMSE d_pv^y (m) | RMSE d_pv^x (m) | ADE (m) | FDE (m) | CT (ms/step) |
-|------------------------------|------------------------|--------------------|--------------------|--------------------|--------------------|-----------------|-----------------|-----------------|-----------------|---------|---------|--------------|
-| **Proposed model**           | **MA-SST-DDPG**        | **0.058** | **0.023** | **0.056** | **0.030** | **0.098** | **0.118** | **0.103** | **0.126** | **0.078** | **0.156** | 16 |
-| **Ablation Experiments**     | MA-State-Space-DDPG    | 0.062 | 0.024 | 0.058 | 0.035 | 0.108 | 0.122 | 0.109 | 0.133 | 0.083 | 0.165 | 15 |
-|                              | MA-Transformer-DDPG    | 0.061 | 0.026 | 0.057 | 0.035 | 0.145 | 0.136 | 0.146 | 0.135 | 0.098 | 0.196 | 18 |
-|                              | MA-LSTM-DDPG           | 0.098 | 0.027 | 0.088 | 0.042 | 0.181 | 0.146 | 0.210 | 0.166 | 0.123 | 0.247 | 22 |
-|                              | SST-DDPG               | 0.132 | 0.039 | 0.135 | 0.050 | 0.312 | 0.152 | 0.210 | 0.193 | 0.152 | 0.304 | 9 |
-|                              | State-Space-DDPG       | 0.184 | 0.078 | 0.230 | 0.056 | 0.382 | 0.342 | 0.412 | 0.307 | 0.253 | 0.505 | 8 |
-|                              | Transformer-DDPG       | 0.264 | 0.079 | 0.233 | 0.086 | 0.383 | 0.387 | 0.434 | 0.346 | 0.271 | 0.542 | 10 |
-| **Reinforcement Learning**   | MA-LSTM-DDPG           | 0.098 | 0.027 | 0.088 | 0.042 | 0.181 | 0.146 | 0.210 | 0.166 | 0.123 | 0.247 | 22 |
-|                              | MA-DDPG                | 0.147 | 0.045 | 0.134 | 0.048 | 0.322 | 0.184 | 0.227 | 0.203 | 0.164 | 0.328 | 14 |
-|                              | DDPG                   | 0.594 | 0.313 | 0.802 | 0.181 | 1.001 | 1.050 | 0.656 | 0.671 | 0.679 | 1.357 | 7 |
-| **Trajectory Prediction**    | DenseTNT               | 0.315 | 0.180 | 0.350 | 0.210 | 0.450 | 0.380 | 0.480 | 0.410 | 0.420 | 0.850 | 12 |
-|                              | MultiPath++            | 0.340 | 0.195 | 0.380 | 0.230 | 0.490 | 0.410 | 0.520 | 0.440 | 0.450 | 0.920 | 14 |
-|                              | Social-LSTM            | 0.450 | 0.250 | 0.520 | 0.310 | 0.680 | 0.550 | 0.710 | 0.580 | 0.650 | 1.350 | 8 |
-| **Supervised Learning**      | Transformer            | 1.156 | 0.438 | 1.661 | 0.261 | 1.751 | 1.169 | 1.549 | 1.624 | 1.199 | 2.398 | 6 |
-|                              | LSTM                   | 2.066 | 1.877 | 2.059 | 2.011 | 2.024 | 1.847 | 2.128 | 2.012 | 1.783 | 2.566 | 7 |
-|                              | NN                     | 2.252 | 2.256 | 2.145 | 2.382 | 2.195 | 2.145 | 2.055 | 2.008 | 2.677 | 3.955 | 4* |
+<img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/table1.png" alt="Model Compare" width="600">
 
 *The best values among all models are highlighted in bold. ADE/FDE are averaged over vehicle and pedestrian evaluation sequences.*
 
@@ -106,15 +89,10 @@ Using the trained MA-SST-DDPG, we simulated **5,102 high-risk interactions** und
   - **Pedestrian-Yield (32.7%)** → slowing down or rollback to allow vehicles to pass.  
 
 <p align="center">
-  <img src="docs/conflict_rate.png" alt="Conflict Rate Surface" width="500">
-  <img src="docs/strategy.png" alt="Yield Strategy Quadrant" width="500">
+  <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/F3.png" alt="Conflict Rate Surface" width="500">
+  <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/F4.png" alt="Yield Strategy Quadrant" width="500">
 </p>
 
 ---
 
-## 📥 Code & Usage
 
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/your-username/CrashAvoidance_MA-SST-DDPG.git
-   cd CrashAvoidance_MA-SST-DDPG
