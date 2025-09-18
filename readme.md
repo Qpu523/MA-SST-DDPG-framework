@@ -72,10 +72,8 @@ Dataset access: [High-Density Intersection Dataset](https://github.com/Qpu523/HD
 
 <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/table1.png" alt="Model Compare" width="600">
 
-*The best values among all models are highlighted in bold. ADE/FDE are averaged over vehicle and pedestrian evaluation sequences.*
 
-
-MA-SST-DDPG consistently outperforms both **supervised trajectory forecasting baselines** and **reinforcement learning variants**, particularly in safety-critical conditions:contentReference[oaicite:0]{index=0}.
+MA-SST-DDPG consistently outperforms both **supervised trajectory forecasting baselines** and **reinforcement learning variants**, particularly in safety-critical conditions.
 
 ---
 
@@ -88,10 +86,10 @@ Using the trained MA-SST-DDPG, we simulated **5,102 high-risk interactions** und
   - **Vehicle-Yield (67.3%)** → braking/deceleration dominant.  
   - **Pedestrian-Yield (32.7%)** → slowing down or rollback to allow vehicles to pass.  
 
-<p align="center">
-  <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/F3.png" alt="Conflict Rate Surface" width="500">
-  <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/F4.png" alt="Yield Strategy Quadrant" width="500">
-</p>
+| Conflict Rate Surface | Yield Strategy Quadrant |
+|-----------------------|--------------------------|
+| <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/F3.png" width="400"/> | <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/F4.png" width="400"/> |
+
 
 ---
 
