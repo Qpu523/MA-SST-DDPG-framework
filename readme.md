@@ -73,7 +73,7 @@ Dataset access: [High-Density Intersection Dataset](https://github.com/Qpu523/HD
 <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/table1.png" alt="Model Compare" width="600">
 
 
-MA-SST-DDPG consistently outperforms both **supervised trajectory forecasting baselines** and **reinforcement learning variants**, particularly in safety-critical conditions.
+MA-SST-DDPG consistently outperforms both **trajectory forecasting baselines** and **reinforcement learning variants**, particularly in safety-critical conditions.
 
 ---
 
