@@ -82,9 +82,12 @@ MA-SST-DDPG consistently outperforms both **supervised trajectory forecasting ba
 Using the trained MA-SST-DDPG, we simulated **5,102 high-risk interactions** under varied initial conditions:
 
 - **Conflict Rate:** Increased sharply when both vehicle and pedestrian initial speeds exceeded 3.5 m/s.  
-- **Avoidance Strategies:**
-  - **Vehicle-Yield (67.3%)** → braking/deceleration dominant.  
-  - **Pedestrian-Yield (32.7%)** → slowing down or rollback to allow vehicles to pass.  
+- **Avoidance Strategies:**  
+
+  - When **vehicle speed > 3.2 m/s** and **pedestrian speed < 1.9 m/s**, **Pedestrian-Yield** dominated (89.8%), indicating that fast vehicles with slow pedestrians led pedestrians to yield.  
+  - When **vehicle speed < 3.2 m/s** and **pedestrian speed ≥ 1.9 m/s**, **Vehicle-Yield** dominated (90.7%), showing that faster pedestrians with slower vehicles typically triggered vehicle yielding.  
+  - In the **low–low speed quadrant**, Vehicle-Yield was more frequent (62.5%).  
+  - In the **high–high speed quadrant**, Pedestrian-Yield was slightly more frequent (57.1%).  
 
 | Conflict Rate Surface | Yield Strategy Quadrant |
 |-----------------------|--------------------------|
