@@ -85,7 +85,7 @@ Using the trained MA-SST-DDPG, we simulated **5,102 high-risk interactions** und
   - In the **low–low speed quadrant**, Vehicle-Yield was more frequent (62.5%).  
   - In the **high–high speed quadrant**, Pedestrian-Yield was slightly more frequent (57.1%).  
 
-| Conflict Rate Surface | Yield Strategy Quadrant |
+| Conflict Rate | Yield Strategy |
 |-----------------------|--------------------------|
 | <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/F3.png" width="400"/> | <img src="https://github.com/Qpu523/MA-SST-DDPG-framework/blob/56f7e91bb91b5e90c4dfe53414551139603b4d51/Config/F4.png" width="400"/> |
 
