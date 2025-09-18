@@ -42,14 +42,10 @@ Dataset access: [High-Density Intersection Dataset](https://github.com/Qpu523/HD
 
 - **Environment:** Vehicle and pedestrian modeled as agents in a two-agent Markov game.  
 - **Action Space:** Continuous (longitudinal and lateral accelerations).  
-- **Reward Functions:**
-  - **Speed Reward** → aligns agent velocities with human-like behavior.  
-  - **Distance Reward** → maintains realistic separation during interactions.  
 - **Replay Buffer & Reweighting:** Importance sampling with TD error and feedback weights to emphasize critical near-miss cases.  
 - **Training Parameters:**  
   - Buffer size: 10,000  
   - Batch size: 256  
-  - Actor LR: 5e-4, Critic LR: 1e-3  
   - Discount factor: 0.9  
   - Target update rate: 0.01  
   - 3,000 training episodes  
