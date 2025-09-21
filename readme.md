@@ -8,8 +8,8 @@ This repository hosts the implementation and evaluation of the **Multi-Agent Sta
 
 The **MA-SST-DDPG framework** integrates:
 
-- **Multi-Agent DDPG:** Captures cooperative–competitive dynamics between vehicles and pedestrians using centralized training with decentralized execution.  
-- **State-Space Model (Mamba):** Efficiently models long-term temporal dependencies in sequential decision-making.  
+- **MADDPG:** Captures cooperative–competitive dynamics between vehicles and pedestrians using centralized training with decentralized execution.  
+- **State-Space Model:** Efficiently models long-term temporal dependencies in sequential decision-making.  
 - **Transformer Module:** Dynamically prioritizes safety-critical features within interaction histories.  
 
 <p align="center">
