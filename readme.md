@@ -107,6 +107,5 @@ If you use this dataset or method in your research, please cite the following pa
   doi={10.1016/j.aap.2025.108334},
   url={https://doi.org/10.1016/j.aap.2025.108334}
 }
-}
 
 
