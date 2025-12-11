@@ -91,5 +91,22 @@ Using the trained MA-SST-DDPG, we simulated **5,102 high-risk interactions** und
 
 
 ---
+## 📌 Citation
+
+If you use this dataset or method in your research, please cite the following paper:
+
+```bibtex
+@article{pu2026interactive,
+  title={Modeling interactive crash avoidance behaviors: A multi-agent state-space transformer-enhanced reinforcement learning framework},
+  author={Pu, Qingwen and Xie, Kun and Guo, Hongyu and Zhu, Yuan},
+  journal={Accident Analysis & Prevention},
+  volume={226},
+  pages={108334},
+  year={2026},
+  publisher={Elsevier},
+  doi={10.1016/j.aap.2025.108334},
+  url={https://doi.org/10.1016/j.aap.2025.108334}
+}
+}
 
 
