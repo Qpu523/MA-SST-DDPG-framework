@@ -108,4 +108,8 @@ If you use this dataset or method in your research, please cite the following pa
   url={https://doi.org/10.1016/j.aap.2025.108334}
 }
 
+---
 
+## 📈 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Qpu523/MA-SST-DDPG-framework&type=Date)](https://star-history.com/#Qpu523/MA-SST-DDPG-framework&Date)
