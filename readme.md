@@ -110,6 +110,8 @@ If you use this dataset or method in your research, please cite the following pa
 
 
 
+```
+---
 ## 📈 Star History
 
-![Star History Chart](https://github.com/Qpu523/MA-SST-DDPG-framework/blob/f2395547151b7376637eb7a315fde6336b0414bb/Config/star-history.png)
+[![Star History Chart](https://api.star-history.com/svg?repos=Qpu523/MA-SST-DDPG-framework&type=Date)](https://star-history.com/#Qpu523/MA-SST-DDPG-framework&Date)
