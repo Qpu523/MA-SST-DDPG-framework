@@ -113,5 +113,4 @@ If you use this dataset or method in your research, please cite the following pa
 ```
 ---
 ## 📈 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Qpu523/MA-SST-DDPG-framework&type=Date)](https://www.star-history.com/?type=date&repos=Qpu523%2FMA-SST-DDPG-framework)
+[![Star History Chart](https://api.star-history.com/svg?repos=Qpu523/MA-SST-DDPG-framework&type=Date&legend=top-left)](https://www.star-history.com/?repos=Qpu523%2FMA-SST-DDPG-framework&type=date&legend=top-left)
